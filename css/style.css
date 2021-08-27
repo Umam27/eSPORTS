@@ -278,14 +278,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #c0a808;
+     color: red;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fdd430;
+     color: red;
 }
 
 .sign_btn {
@@ -324,7 +324,7 @@ button {
 
 .banner_main {
      padding: 90px 0;
-     background: url(../images/banner.jpg);
+     background: url(../images/igor-karimov-9AmKnNZw3GA-unsplash.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding-top: 60px;
@@ -428,7 +428,7 @@ button {
 }
 
 .we_do {
-     background: #232323;
+     background:gray;
      padding: 90px 0px 60px 0px;
 }
 
@@ -446,7 +446,7 @@ button {
 }
 
 .titlepage strong {
-     border-top: #e5af23 solid 1px;
+     border-top: red solid 1px;
      width: 260px;
      position: absolute;
      left: 0;
@@ -456,7 +456,7 @@ button {
 }
 
 .we_do_box i {
-     border: #ceab06 solid 4px;
+     border: red solid 4px;
      width: 160px;
      height: 160px;
      display: flex;
@@ -576,7 +576,7 @@ button {
 #myCarousel .carousel-control-next {
      width: 62px;
      height: 62px;
-     background: #deae25;
+     background: red;
      opacity: 1;
      font-size: 28px;
      color: #fff;
@@ -610,7 +610,7 @@ button {
 
 .contact {
      padding: 90px 0;
-     background-color: #f5b707;
+     background-color: gray;
 }
 
 .main_form {
@@ -655,7 +655,7 @@ button {
 }
 
 .contact .main_form .send_btn:hover {
-     background-color: #ddad25;
+     background-color: red;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
@@ -691,7 +691,7 @@ button {
      color: #292928;
      font-size: 30px;
      line-height: 30px;
-     border-bottom: #ce9b1c solid 1px;
+     border-bottom: red solid 1px;
      padding-bottom: 15px;
 }
 
@@ -709,7 +709,7 @@ button {
 }
 
 .some .read_more:hover {
-     background-color: #f5b707;
+     background-color: red;
      color: #fff;
 }
 
@@ -755,7 +755,7 @@ button {
 }
 
 .cont span {
-     color: #d0b608;
+     color: red;
      font-size: 17px;
      line-height: 26px;
      padding: 30px 0px;
@@ -765,7 +765,7 @@ button {
 }
 
 .cont .read_more:hover {
-     background-color: #d0b608;
+     background-color: red;
      color: #000;
 }
 
@@ -787,8 +787,47 @@ button {
 }
 
 .copyright a:hover {
-     color: #d0b608;
+     color: red;
 }
+
+/*social media*/
+.icon-bar {
+     position: fixed;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+   }
+   
+   /* Style the icon bar links */
+   .icon-bar a {
+     display: block;
+     text-align: center;
+     padding: 16px;
+     transition: all 0.3s ease;
+     color: white;
+     font-size: 20px;
+   }
+   
+   /* Style the social media icons with color, if you want */
+   .icon-bar a:hover {
+     background-color: #000;
+   }
+   
+   .facebook {
+     background: #3B5998;
+     color: white;
+   }
+   .instagram {
+        background: rgb(168, 18, 223);
+        color:white;
+   }
+   
+   .youtube {
+     background: #bb0000;
+     color: white;
+   }
+
 
 
 /** end footer **/
